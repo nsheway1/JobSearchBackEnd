@@ -1,6 +1,10 @@
 package com.nat.jobsearch.models;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Employer extends AbstractUser {
+
     private String address;
     private String focal_person;
 

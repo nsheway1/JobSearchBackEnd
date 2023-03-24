@@ -1,5 +1,8 @@
 package com.nat.jobsearch.models;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Job {
      private Long id;
      private String name;

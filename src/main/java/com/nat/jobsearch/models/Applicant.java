@@ -1,5 +1,8 @@
 package com.nat.jobsearch.models;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Applicant extends AbstractUser{
     private String address;
     private String additional_information;
